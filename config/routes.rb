@@ -1,7 +1,7 @@
 DiscourseEndpoint::Engine.routes.draw do
-  resource :users, path: '/' do
+  resource :users do
     collection do
-      get 'test'
+      get 'current'
     end
   end
 end
