@@ -24,7 +24,8 @@ hooks:
 * Rebuild the container
 
 ```
-cd /var/docker
+ssh youraccount@yourip.com
+cd /var/discourse
 ./launcher rebuild app
 ```
 

@@ -1,0 +1,3 @@
+endpoint:
+  endpoint_url:
+    default: 'http://littebits.cc'
