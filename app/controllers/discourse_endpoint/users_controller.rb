@@ -17,7 +17,7 @@ module DiscourseEndpoint
           {
             params: {
               user_uid: oauth_info.try(:uid),
-              token: session[:authentication]
+              user_token: request.env["omniauth.auth"]
             }
           }
         )
