@@ -1,7 +1,3 @@
 en:
-  admin:
-    site_settings:
-      categories:
-        endpoint: 'Endpoint configuration'
   site_settings:
     endpoint_url: 'Please specify the endpoint url'

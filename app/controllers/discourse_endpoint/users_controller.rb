@@ -17,12 +17,11 @@ module DiscourseEndpoint
           {
             params: {
               user_uid: oauth_info.try(:uid),
-              user_token: env["omniauth.auth"],
-              token_2: env['omniauth.identity']
+              user_token: session[:authentication]
             }
           }
         )
-        response
+        render json: response, status: :ok
       end
 
       def endpoint_store_url
