@@ -1,6 +1,7 @@
 en:
-  admin:
-    site_settings:
-      categories:
-        endpoint: 'Endpoint configuration'
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          endpoint: 'Endpoint configuration'
 
